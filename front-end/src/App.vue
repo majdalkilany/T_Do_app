@@ -11,7 +11,7 @@
 
 <script>
 import axios from "axios";
-
+  
 import Form from "./components/Form.vue";
 import Cards from "./components/Cards.vue";
 
@@ -22,6 +22,7 @@ export default {
   apiData:[],
   evenCheck:false
 }},
+
   components: {
     Form,
     Cards,
